@@ -4,8 +4,8 @@
 h1 {
   margin-bottom: 15px;
   text-align: center;
-  font-family: 'Brush Script MT';
-  font-size: 36px;
+  font-family: 'Comic Sans MS';
+  font-size: 175%
 }
 
 .div_style {
@@ -24,9 +24,8 @@ p {
   overflow: hidden;
   margin-right: 0%;
   margin-left: 0%; 
-  font-family: Helvetica;
   color: #008080;
-  font-family: Georgia, serif;
+  font-family: Palatino, bold;
 }
 
 /* Simple Responsive Framework. */
@@ -135,6 +134,7 @@ p {
   border: 1px solid black;
   margin-right: -1px;
   margin-top: -1px;
+  font-size: 125%;
 }
 #p2_title {
   background-color: #ECF98F;
@@ -145,6 +145,7 @@ p {
   border: 1px solid black;
   margin-right: -1px;
   margin-top: -1px;
+  font-size: 125%;
 }
 #p3_title {
   background-color: #ECF98F;
@@ -155,11 +156,13 @@ p {
   border: 1px solid black;
   margin-right: -1px;
   margin-top: -1px;
+  font-size: 125%;
 }
 
 #p_description {
   position: relative;
-  margin-left: 20px;
+/*  margin-left: 20px;*/
+  padding-left: 20px ;
   float: left;
   top: 5px;
 }
